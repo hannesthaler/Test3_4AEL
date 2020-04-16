@@ -9,6 +9,7 @@ namespace Test4AEL
     {
         static void Main(string[] args)
         {
+            Console.ReadKey();
         }
     }
 }
