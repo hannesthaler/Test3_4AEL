@@ -12,6 +12,7 @@ namespace Test4AEL
         {
            
             Titel("Dies ist ein TESt");
+            Menu();
             Console.ReadKey();
         }
         static void Titel(string titel)
@@ -26,6 +27,14 @@ namespace Test4AEL
             {
                 Console.Write("*");
             }
+        }
+        static void Menu()
+        {
+            Console.WriteLine("\n1:  10 --> 2");
+            Console.WriteLine("2:  10 --> Hex");
+            Console.WriteLine("\n3:  2 --> 10");
+
+
         }
     }
 }
