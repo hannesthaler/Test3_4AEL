@@ -27,11 +27,5 @@ namespace Test4AEL
                 Console.Write("*");
             }
         }
-        static string BinaerZahlEinlesen()
-        {
-            Console.WriteLine("Bitte Binärzahl eingeben (0/1): ");
-            string input = Console.ReadLine();
-            return input;
-        }
     }
 }
